@@ -95,7 +95,8 @@ body {
   width: 200px;
   font-size: 32px;
   font-weight: 700;
-  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
   
 }
 
