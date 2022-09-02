@@ -1,6 +1,6 @@
 
 let weather = {
-    API_KEY : "05cfc6b58e66dc1c215c660ad12c19fa",
+    API_KEY : "Your Api Key",
     fetchWeather: function (city) {
       fetch(
         "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -62,5 +62,7 @@ let weather = {
         weather.search();
       }
     });
+
+// 05cfc6b58e66dc1c215c660ad12c19fa
   
   weather.fetchWeather("Mumbai");
